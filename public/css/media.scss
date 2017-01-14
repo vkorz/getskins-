@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1022px){
+  header {
+    height: 450px;
+    display: inline-block;
+    .logo {
+      margin: 20px auto;
+      float: none;
+      h1 {
+        margin: 0px auto;
+        text-align: center;
+      }
+      h2 {
+        display: none;
+      }
+      a{
+        display: block;
+      }
+    }
+    .Block-B {
+      margin: 0px auto;
+      float: none;
+      width: 320px;
+      height: 90px;
+      .gradient{
+
+      }
+      .gradient:first-child{
+        margin: 0px auto;
+      }
+      .button{
+        margin: 0px auto;
+        h1{
+        }
+        h1:last-child{
+        }
+        .block{
+          height: 90px;
+          width: 160px;
+          -webkit-transform: skew(0deg);
+          -moz-transform: skew(0deg);
+          -o-transform: skew(0deg);
+          // float: left;
+        }
+        .noActive{
+          margin-left: -160px;
+        }
+      }
+    }
+
+    .ProfileSteam{
+      display: block;
+      margin: 0px auto;
+      float: none;
+      .SteamInfo {
+        height: 90px;
+        width: 100%;
+        float: none;
+        margin: 0px auto;
+        font-size: 18px;
+        text-align: center;
+        border-top: none !important;
+        >span {
+          display: block;
+          margin: 0px auto;
+          img{
+            height: 25px;
+            width: 25px;
+            position: relative;
+            top: 5px;
+            left: 15px;
+          }
+        }
+        .Name{
+          margin-top: 20px;
+        }
+        .Balance {
+          margin-top: -2px;
+        }
+        .logOut{
+          text-decoration: line;
+          margin-left: 0px;
+        }
+      }
+      .avatar{
+        float: none;
+        margin: 10px auto;
+        display: block;
+        height: 80px;
+        width: 80px;
+      }      
+    }
+  }
+.leftContent{
+  .blockMenu{
+    display: none;
+  }
+  .marketingBlock{
+    display: none;
+  }  
+}  
+}
+
